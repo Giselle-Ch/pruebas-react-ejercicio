@@ -1,4 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
+import './App.css';
+import Form from './components/Form';
+
+const App = () => {
+  return (
+    <div className="App">
+      <div className="App-content">
+        <p>
+          Aquí haremos nuestro To-Do list
+        </p>
+        <Form />
+      </div>
+    </div>
+  );
+}
+
+export default App;
+
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -22,4 +41,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;*/
