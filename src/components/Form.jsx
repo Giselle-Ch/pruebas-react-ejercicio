@@ -3,11 +3,7 @@ import Todo from '../components/Todo';
 
 const Form = () => {
     const [todo, setTodo] = useState({todo: '', cantidad: ''})
-    const [todos, setTodos] = useState([
-        {todo: 'todo 1', cantidad: '0'},
-        {todo: 'todo 2', cantidad: '3'},
-        {todo: 'todo 3', cantidad: '4'}
-    ])
+    const [todos, setTodos] = useState([])
 
 
     const handleChange = e => setTodo({ ...todo, [e.target.name]: e.target.value})
